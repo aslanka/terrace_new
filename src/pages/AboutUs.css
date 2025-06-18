@@ -1,0 +1,140 @@
+:root {
+    --bg: #d8e1db;
+    --text: #3e3e3e;
+    --accent: #a18a6e;
+    --accent-light: #c5b6a3;
+    --highlight: #4b63b4;
+    --light-accent: #f5f7f4;
+  }
+  
+  .about-wrapper {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Georgia', serif;
+  }
+  
+  /* Hero Section */
+  /* .about-hero {
+    padding: 5rem 2rem 3rem;
+    text-align: center;
+    background-color: var(--light-accent);
+  }
+  
+  .about-hero h1 {
+    font-size: 3rem;
+    color: var(--accent);
+    margin-bottom: 1rem;
+  }
+  
+  .about-hero p {
+    font-size: 1.15rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+  } */
+
+  .about-page {
+    background-color: var(--bg);
+    color: var(--text);
+    padding-top: 6rem; /* make room for navbar */
+  }
+  
+  .about-hero {
+    padding: 4rem 2rem 2rem;
+    text-align: center;
+
+  }
+  
+  .about-hero h1 {
+    font-size: 2.5rem;
+    color: var(--accent);
+  }
+  
+  .about-hero p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 1rem auto 0;
+    color: var(--text);
+  }
+  
+  
+  /* Image + Text Section */
+  .about-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 4rem 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-image {
+    flex: 1 1 40%;
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-text {
+    flex: 1 1 50%;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--accent);
+  }
+  
+  .about-text p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--text);
+  }
+  
+  /* Core Values */
+  .about-values {
+    background: var(--light-accent);
+    padding: 4rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .value-card {
+    flex: 1 1 250px;
+    max-width: 300px;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .value-card h3 {
+    color: var(--accent);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+  }
+  
+  .value-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .about-section {
+      flex-direction: column;
+    }
+  
+    .about-text {
+      text-align: center;
+    }
+  }
+  

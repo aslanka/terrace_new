@@ -1,0 +1,9 @@
+.testimonial-card {
+    border: 1px solid var(--soft-peach);
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(100, 80, 50, 0.1);
+    color: var(--text);
+  }
+  
