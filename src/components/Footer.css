@@ -8,7 +8,7 @@
 }
 
 .footer {
-  background-color: var(--bg);
+  background-color: #a4bbd3;
   padding: 3rem 2rem;
   font-family: 'Georgia', serif;
   color: var(--text);
@@ -35,7 +35,8 @@
 .footer-section h4 {
   font-size: 1.2rem;
   margin-bottom: 1rem;
-  color: var(--accent);
+  color: white;
+  font-weight: bold ;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -50,7 +51,7 @@
 .footer-section p {
   font-size: 0.95rem;
   margin-bottom: 0.5rem;
-  color: var(--text);
+  color: white;
 }
 
 .footer-divider {

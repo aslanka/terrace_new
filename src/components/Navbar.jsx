@@ -16,8 +16,8 @@ function Navbar() {
       <ul className="nav-links">
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About Us</Link></li>
-        <li><Link to="/order">Online Order</Link></li>
-        <li><a href="https://302s20904633717.s4shops.com">Gift Card</a></li>
+        <li><a href="https://online.skytab.com/d36ac840d8b7d537272c95f31ebec377/order-settings" target='blank'>Online Order</a></li>
+        <li><a href="https://302s20904633717.s4shops.com" target='blank'>Gift Card</a></li>
 
         {/* Dropdown Menu */}
         <li className="dropdown"

@@ -12,10 +12,10 @@
 /* Give header some margin or padding-top to avoid being hidden */
 .menu-header {
   margin-top: 80px; 
-  background-color:  yellow;
+  background-color: #a4bbd3;
   padding: 2rem 1rem;
   text-align: center;
-  color:  var(--bg);
+  color:  white;
 }
 
 .menu-banner {
@@ -34,7 +34,7 @@
 
 .menu-subtitle {
   font-size: 1.1rem;
-  color: #333;
+  color: white;
   margin-bottom: 1rem;
 }
 
@@ -50,7 +50,7 @@
 
 .menu-section {
   border: 2px solid  var(--bg);
-  padding: 1rem;
+  padding: 1rem;  
   border-radius: 8px;
   background-color: #ffffff;
 }

@@ -2,8 +2,7 @@
   margin-top: 80px;
   padding: 2rem 1rem;
   text-align: center;
-  color: #004488;
-  background: linear-gradient(to right, #7ab8f5, #cfe9ff);
+  background-color: #a4bbd3;
 }
 
 .header-title {
@@ -13,7 +12,7 @@
 
 .header-subtext {
   font-size: 1.1rem;
-  color: #333;
+  color: white;
   margin-bottom: 1rem;
 }
 

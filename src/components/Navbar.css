@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: #a4bbd3;
   padding: 1rem 2rem;
   position: fixed;
   top: 0;
@@ -51,6 +51,7 @@
 .dropdown-content li {
   padding: 0.5rem 1rem;
   white-space: nowrap;
+  list-style-type: none;
 }
 
 .dropdown-content li:hover {

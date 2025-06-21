@@ -2,24 +2,34 @@
     margin-top: 80px;
     padding: 2rem 1rem;
     text-align: center;
-    color: #004488;
-    background: linear-gradient(to right, #7ab8f5, #cfe9ff);
+    background-color: #a4bbd3;
+    border: 2px solid  var(--bg);
+
+  }
+  .menu-section {
+    border: 2px solid  var(--bg);
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #ffffff;
   }
   
   .header-title {
     font-size: 2.2rem;
     margin-bottom: 0.25rem;
+    
   }
   
   .header-subtext {
     font-size: 1.1rem;
-    color: #333;
+    color: white;
     margin-bottom: 1rem;
+    
   }
   
   .more-menu-container {
     font-family: sans-serif;
     background: #fffefb;
+    border: 2px solid  var(--bg);
     padding: 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -27,15 +37,16 @@
   }
   
   .more-box {
-    border: 2px solid #3f57c2;
+
     border-radius: 20px;
     padding: 1.5rem;
     background: #ffffff;
+    border: 2px solid  var(--bg);
   }
   
   .more-box h2 {
     text-align: center;
-    color: #0033a0;
+
     margin-bottom: 1rem;
   }
   

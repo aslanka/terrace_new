@@ -1,27 +1,27 @@
 import React from "react";
 import "./AboutUs.css";
-
+import image from "../assets/IMG_2988.jpg"
 function AboutUs() {
   return (
     <main className="about-wrapper">
       <section className="about-hero">
         <h1>Our Story</h1>
         <p>
-          Rooted in southern warmth and culinary passion, Terrance Kitchen is more than just a brunch destination—it's a gathering place for unforgettable moments.
+          Rooted in southern warmth and culinary passion, Terrace Kitchen is more than just a brunch destination—it's a gathering place for unforgettable moments.
         </p>
       </section>
 
       <section className="about-section">
         <div className="about-image">
           <img
-            src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80"
+            src={image}
             alt="Chef preparing brunch"
           />
         </div>
         <div className="about-text">
           <h2>Our Mission</h2>
           <p>
-            At Terrance Kitchen, our mission is to elevate everyday brunch into a refined celebration of flavor, community, and comfort. With seasonal ingredients, a touch of finesse, and heartfelt hospitality, we serve joy on every plate.
+            At Terrace Kitchen, our mission is to elevate everyday brunch into a refined celebration of flavor, community, and comfort. With seasonal ingredients, a touch of finesse, and heartfelt hospitality, we serve joy on every plate.
           </p>
         </div>
       </section>

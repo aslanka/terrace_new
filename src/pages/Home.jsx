@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import TestimonialCard from "../components/TestimonialCard";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "./Home.css";
-
+import brunchTable from "../assets/IMG_3003.jpg"
 const chefQuotes = [
   {
     name: "Chef Aria Monroe",
@@ -44,7 +44,7 @@ function Home() {
   return (
     <main className="home">
       <section className="hero">
-        <h1>Welcome to Terrance Kitchen</h1>
+        <h1>Welcome to Terrace Kitchen</h1>
         <p>Experience gourmet magic from our world-class chefs.</p>
       </section>
 
@@ -52,7 +52,7 @@ function Home() {
   <div className="about-text">
     <h2>Durham's Favorite Brunch Restaurant!</h2>
     <p>
-      Look no further, you’ve found the best brunch restaurant in RTP! Terrance Kitchen is serving up breakfast favorites and sandwiches in our cozy, family-friendly diner environment.
+      Look no further, you’ve found the best brunch restaurant in RTP! Terrace Kitchen is serving up breakfast favorites and sandwiches in our cozy, family-friendly diner environment.
     </p>
     <p>
       We welcome guests of all ages and walks of life for both breakfast and lunch. We specialize in serving large parties, so bring your family and friends and come down to eat with us!
@@ -86,13 +86,13 @@ function Home() {
     <h2>The Brunch Experience</h2>
     <p>
       Imagine golden sunlight, clinking glasses, and laughter over handcrafted dishes.
-      Brunch at Terrance Kitchen is more than a meal — it’s a moment.
+      Brunch at  Kitchen is more than a meal — it’s a moment.
     </p>
   </div>
 
 
   <div className="brunch-image">
-    <img src="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?auto=format&fit=crop&w=500&q=80" alt="Brunch table" />
+  <img src={brunchTable} alt="Brunch table" />
   </div>
 
  
@@ -115,15 +115,14 @@ function Home() {
   <div className="gift-card-content">
     <h2>Make their day.</h2>
     <p>
-      A Terrance Kitchen gift card is the perfect way to treat someone special to a warm welcome and an unforgettable dining experience.
+      A Terrace Kitchen gift card is the perfect way to treat someone special to a warm welcome and an unforgettable dining experience.
     </p>
     <p>
       Choose the amount that fits the occasion, whether it’s a casual bite or a full Southern feast. Available for purchase in person or delivered instantly via email or text, our gift cards make last-minute gifting effortless.
     </p>
-    <p>
-      You can even schedule a digital delivery for a future date or time. And with no expiration date, they can savor their meal whenever the moment feels just right.
-    </p>
-    <button className="purchase-btn">Purchase</button>
+  
+    <a href="https://302s20904633717.s4shops.com" target="blank"> <button className="purchase-btn">Purchase</button></a>
+   
   </div>
 </section>
 
@@ -134,7 +133,7 @@ function Home() {
 <div className="gift-card-content">
     <h2>Make their day.</h2>
     <p>
-      A Terrance Kitchen gift card is the perfect way to treat someone special to a warm welcome and an unforgettable dining experience.
+      A Terrace Kitchen gift card is the perfect way to treat someone special to a warm welcome and an unforgettable dining experience.
     </p>
     <p>
       Choose the amount that fits the occasion, whether it’s a casual bite or a full Southern feast. Available for purchase in person or delivered instantly via email or text, our gift cards make last-minute gifting effortless.

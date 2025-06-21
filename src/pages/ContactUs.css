@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: var(--bg);
+  background-color: #7b9cbd;
   font-family: 'Georgia', serif;
   margin: 0;
 }
@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--bg);
+  background-color: #a4bbd3;
   padding: 8rem 2rem;
   min-height: 100vh;
 }
@@ -26,7 +26,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 4rem;
-  background: var(--light);
+  background-color: #7b9cbd;
   border-radius: 12px;
   padding: 3rem;
   max-width: 1000px;
@@ -41,13 +41,13 @@ body {
 
 .contact-fields h1 {
   font-size: 2rem;
-  color: var(--accent);
+  color: white;
   margin-bottom: 0.5rem;
 }
 
 .contact-fields p {
   font-size: 0.95rem;
-  color: var(--text);
+  color: white;
   margin-bottom: 2rem;
 }
 
@@ -78,7 +78,7 @@ body {
 .form-group label {
   font-weight: bold;
   margin-bottom: 0.5rem;
-  color: var(--text);
+  color: white;
 }
 
 .form-group input,
