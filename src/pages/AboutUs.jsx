@@ -14,7 +14,7 @@ function AboutUs() {
       <section className="about-section">
         <div className="about-image">
           <img
-            src={image}
+            src="https://media.licdn.com/dms/image/v2/D4E35AQEKZAXUQmGnVw/profile-framedphoto-shrink_400_400/B4EZfRjlazHIAk-/0/1751567456232?e=1752613200&v=beta&t=mm69TmWR3wt0xATwJxl8cWlwgCK9uLKswMsr1D2m2Us"
             alt="Chef preparing brunch"
           />
         </div>

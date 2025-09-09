@@ -4,9 +4,7 @@ import headerImage from "../assets/TK-PNG.png"; // Optional
 
 const moreMenu = {
   salads: [
-    { name: "House Salad", price: "15.00", desc: "Mixed greens, tomato, cucumber, red onion, carrots, dressing of your choice with grilled chicken" },
     { name: "Caesar Salad", price: "14.00", desc: "Traditional Caesar, Homemade croutons, shaved pecorino with grilled chicken" },
-    { name: "Fall Salad", price: "15.00", desc: "Toasted almonds, cranberry, goat cheese, tangerine house dressing with grilled chicken" },
     { name: "Greek Salad *", price: "Choice of Chicken (17), Steak (19), or Fish (19)", desc: "Greek salad, tomato, cucumber, feta cheese, kalamata olive, red onion, your choice of meat" }
   ],
   chickenWaffles: [
@@ -15,14 +13,14 @@ const moreMenu = {
     { name: "Cajun Chicken and Waffles", price: "15.00" }
   ],
   croissants: [
-    { name: "Double Trouble", price: "17.00", desc: "Marinated chicken breast grilled and served with ranch dressing, jalapeños, lettuce, tomato, bacon, and provolone in a grilled soft kaiser" },
-    { name: "Club Croissant", price: "9.00", desc: "Smoked turkey, shaved ham, bacon, provolone, lettuce, tomato in a warm, flaky croissant" },
-    { name: "Turkey Croissant *", price: "Chicken (15), Steak (19), Fish (17)", desc: "Croissant with smoked turkey, cheddar-jack, lettuce, and tomato" }
+    { name: "Double Trouble", price: "16.50", desc: "Marinated chicken breast grilled and served with ranch dressing, jalapeños, lettuce, tomato, bacon, and provolone in a grilled soft kaiser" },
+    { name: "Club Croissant", price: "17.50", desc: "Smoked turkey, shaved ham, bacon, provolone, lettuce, tomato in a warm, flaky croissant" },
+    { name: "Protein Croissant *", price: "Chicken (15), Steak (19), Fish (17)", desc: "Croissant with smoked turkey, cheddar-jack, lettuce, and tomato" }
   ],
   skillets: [
-    { name: "Duke", price: "15.00", desc: "Broccoli, mushrooms, bell peppers, tomatoes, caramelized onions, and cheddar-jack" },
-    { name: "Knight", price: "15.00", desc: "Smoked ham, smoked turkey, bacon, tomatoes, caramelized onions, and cheddar-jack" },
-    { name: "Marquis", price: "16.00", desc: "Buffalo diced chicken, bacon, bleu cheese or ranch, cheddar-jack" }
+    { name: "Duke", price: "16.50", desc: "Broccoli, mushrooms, bell peppers, tomatoes, caramelized onions, and cheddar-jack" },
+    { name: "Knight", price: "16.50", desc: "Smoked ham, smoked turkey, bacon, tomatoes, caramelized onions, and cheddar-jack" },
+    { name: "Marquis", price: "16.50", desc: "Buffalo diced chicken, bacon, bleu cheese or ranch, cheddar-jack" }
   ],
   sides: [
     "Maple Pepper Bacon", "Fruit cup", "Sausage (pork or turkey)", "Breakfast Taters",
@@ -30,12 +28,12 @@ const moreMenu = {
     "Waffle/Pancake", "French Toast", "Fries", "Toast/Bagel/Croissant", "Salad (5.99)"
   ],
   specialties: [
-    { name: "Chicken Biscuit Supreme", price: "14.00", desc: "Biscuit with two fried chicken breasts, eggs, and sausage gravy" },
+    { name: "Chicken Biscuit Supreme", price: "15.50", desc: "Biscuit with two fried chicken breasts, eggs, and sausage gravy" },
     { name: "Notorious BLT", price: "14.00", desc: "Bacon, lettuce, tomato on toast + choice of fries, hash brown, or fruit cup" },
-    { name: "Breakfast Taco", price: "12.00", desc: "Two tacos with bacon, egg and cheese. Topped with guacamole & pico. Side of fries, hash brown, or fruit cup" },
-    { name: "Carolina Kick", price: "9.00", desc: "Biscuit with hot honey fried chicken, cheese, and eggs" },
-    { name: "Cajun Shrimp & Grits", price: "14.00", desc: "Shrimp over buttery grits topped with lobster cream sauce" },
-    { name: "Steak and Eggs *", price: "15.00", desc: "Two eggs, 6 oz sirloin steak, grilled tomato, garlic toast, with home fries or grits" }
+    { name: "Breakfast Taco", price: "15.00", desc: "Two tacos with bacon, egg and cheese. Topped with guacamole & pico. Side of fries, hash brown, or fruit cup" },
+    { name: "Carolina Kick", price: "10.00", desc: "Biscuit with hot honey fried chicken, cheese, and eggs" },
+    { name: "Cajun Shrimp & Grits", price: "17.50", desc: "Shrimp over buttery grits topped with lobster cream sauce" },
+    { name: "Steak and Eggs *", price: "16.50", desc: "Two eggs, 6 oz sirloin steak, grilled tomato, garlic toast, with home fries or grits" }
   ],
   kids: [
     "Mac and Cheese", "Grilled Cheese", "Pancake or Waffles", "Chicken Tender with fries"

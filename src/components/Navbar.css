@@ -62,3 +62,53 @@
   color: #004488;
 }
 
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  color: #004488;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+/* MOBILE NAV */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #a4bbd3;
+    width: 100%;
+    position: absolute;
+    top: 70px; /* height of navbar */
+    left: 0;
+    padding: 1rem 2rem;
+    z-index: 999;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin-bottom: 1rem;
+  }
+
+  .dropdown-content {
+    position: static;
+    background: none;
+    box-shadow: none;
+    padding-left: 1rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+}

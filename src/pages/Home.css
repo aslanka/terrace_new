@@ -7,10 +7,12 @@
   --light-accent: #f5f7f4;
 }
 
+
 body {
   background-color: var(--bg);
   color: var(--text);
   font-family: 'Georgia', serif;
+  cursor: url('../assets/TK-PNG.png') 16 16, auto; /* 16 16 is the hotspot at center */
 }
 
 /* ------------------- Hero ------------------- */

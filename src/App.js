@@ -7,7 +7,8 @@ import Home from './pages/Home';
 import ContactUs from './pages/ContactUs';
 import Menu from './pages/Menu';
 import DrinksMenu from './pages/DrinksMenu';
-import MoreMenu from './pages/MoreMenu';
+import MoreMenu from "./pages/MoreMenu";
+import MenuAdmin from './pages/admin/MenuAdmin';
 function App() {
   return (
     <Router>
@@ -20,6 +21,7 @@ function App() {
       <Route path="/specials" element={<MoreMenu />} />
       <Route path="/drinks" element={<DrinksMenu />} />
       <Route path="/contact" element={<ContactUs />} />
+      <Route path="/menuAdmin" element={<MenuAdmin />} />
     </Routes>
     <Footer />
   </Router>
