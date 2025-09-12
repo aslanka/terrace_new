@@ -7,7 +7,7 @@ function AboutUs() {
       <section className="about-hero">
         <h1>Our Story</h1>
         <p>
-          Rooted in southern warmth and culinary passion, Terrace Kitchen is more than just a brunch destination—it's a gathering place for unforgettable moments.
+          Rooted in southern warmth and culinary passion, Happi's Diner is more than just a brunch destination—it's a gathering place for unforgettable moments.
         </p>
       </section>
 
@@ -21,7 +21,7 @@ function AboutUs() {
         <div className="about-text">
           <h2>Our Mission</h2>
           <p>
-            At Terrace Kitchen, our mission is to elevate everyday brunch into a refined celebration of flavor, community, and comfort. With seasonal ingredients, a touch of finesse, and heartfelt hospitality, we serve joy on every plate.
+            At Happi's Diner, our mission is to elevate everyday brunch into a refined celebration of flavor, community, and comfort. With seasonal ingredients, a touch of finesse, and heartfelt hospitality, we serve joy on every plate.
           </p>
         </div>
       </section>

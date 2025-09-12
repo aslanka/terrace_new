@@ -1,89 +1,45 @@
-/* Navbar should be fixed at top if that's the intention */
-:root {
-  --bg: #d8e1db;
-  --text: #3e3e3e;
-  --accent: #a18a6e;
-  --accent-light: #c5b6a3;
-  --highlight: #4b63b4;
-  --light-accent: #f5f7f4;
-}
-
-
-/* Give header some margin or padding-top to avoid being hidden */
-.menu-header {
-  margin-top: 80px; 
-  background-color: #a4bbd3;
-  padding: 2rem 1rem;
-  text-align: center;
-  color:  white;
-}
-
-.menu-banner {
-  width: 100%;
-  max-height: 250px;
-  object-fit: cover;
-  border-radius: 12px;
-  margin-bottom: 1rem;
-}
-
-/* Responsive heading */
-.menu-title {
-  font-size: 2.2rem;
-  margin-bottom: 0.25rem;
-}
-
-.menu-subtitle {
-  font-size: 1.1rem;
-  color: white;
-  margin-bottom: 1rem;
-}
-
-/* Main Menu Section */
-.menu {
-  padding: 2rem;
-  font-family: sans-serif;
-  background: #fefefe;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-}
-
-.menu-section {
-  border: 2px solid  var(--bg);
-  padding: 1rem;  
-  border-radius: 8px;
-  background-color: #ffffff;
-}
-
-.menu-section h2 {
-  color: #004488;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 0.5rem;
-}
-
-.menu-section ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.menu-section li {
-  margin-bottom: 1rem;
-}
-
-.desc {
-  color: #444;
-  font-size: 0.9rem;
-}
-
-/* Responsive text sizing */
-@media screen and (max-width: 600px) {
-  .menu-title {
-    font-size: 1.8rem;
+.menu-page {
+    padding: 3rem 2rem;
+    padding-top: 150px;
+    background: #fdfdfd;
+    color: #333;
+    font-family: 'Georgia', serif;
   }
-  .menu-subtitle {
-    font-size: 1rem;
+  
+  .menu-section {
+    margin-bottom: 3rem;
   }
-  .menu {
-    padding: 1rem;
+  
+  .menu-section h2 {
+    font-size: 2rem;
+    color: #7b9cbd;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #7b9cbd;
+    padding-bottom: 0.5rem;
   }
-}
+  
+  .menu-category {
+    margin-bottom: 2rem;
+  }
+  
+  .menu-category h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #4b63b4;
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px dashed #ddd;
+  }
+  
+  .menu-item .menu-text {
+    max-width: 75%;
+  }
+  
+  .menu-item .menu-price {
+    font-weight: bold;
+    color: #7b9cbd;
+  }

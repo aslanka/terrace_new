@@ -1,74 +1,134 @@
+// Menu.js
 import React from "react";
-import "./Menu.css"; // You can style as needed
-import headerImage from "../assets/TK-PNG.png";
-const menu = {
-  breakfastPlates: [
-    { name: "Classic *", price: "14.50", desc: "Two eggs, any style, served with bacon or sausage (pork or turkey), taters, grits or fruit, & a choice of biscuit or toast" },
-    { name: "Sunrise *", price: "16.50", desc: "Two eggs, any style, served with bacon or sausage, taters, grits, or fruit, and a buttermilk flapjack" },
-    { name: "Buttermilk", price: "12.50", desc: "A stack of three pancakes served with butter & maple syrup" },
-    { name: "Belgian Waffle *", price: "10.50", desc: "Classic fluffy Belgian Waffle (add fruits +1.50)" },
-    { name: "French Toast *", price: "10.50", desc: "Classic French toast (add fruits +1.50)" },
-    { name: "Toppings", price: "1.50/each", desc: "Blueberry, Raspberry, Strawberry, Banana, Pecans, Chocolate Chips" },
-  ],
-  sandwiches: [
-   
-    { name: "Chicken Biscuit", price: "10.50", desc: "Crunchy chicken breast, maple pepper bacon, and honey-butter drizzle on a buttermilk biscuit" },
-    { name: "Route 66 *", price: "12.50", desc: "Holiday roasted ham, fried egg, melted sharp cheddar cheese, and honey mustard on soft kaiser bread" },
-    { name: "Maple Tree *", price: "14.50", desc: "Fried or scrambled eggs, maple pepper bacon or sausage topped with cheddar cheese on our buttermilk biscuit" },
-    { name: "Chicken Club *", price: "14.50", desc: "Chicken, tomato, lettuce, guacamole, bacon, buttermilk biscuit and boom boom sauce" },
-    { name: "Avocado Toast *", price: "8.50", desc: "Guacamole on sourdough bread (Add egg or bacon +1.50)" },
-  ],
-  lunchCrafts: [
-    { name: "Flounder *", price: "17.50", desc: "Our caper aioli, lettuce, tomato, onion (option: grilled or fried)" },
-    { name: "Chicken Melt *", price: "15.50", desc: "Grilled Chicken breast with munster cheese, lettuce, tomato, grilled onion, garlic aioli" },
-    { name: "House Burger *", price: "16.50", desc: "Angus beef patty, bacon, lettuce, tomato, onion, munster cheese, garlic aioli" },
-    { name: "Chorizo Burger *", price: "17.50", desc: "Angus beef patty, queso fresco, grilled onions on a brioche bun" },
-    { name: "Classic Mama Meatball *", price: "16.50", desc: "Meatball sandwich with San Marzano sauce & provolone" },
-    { name: "Veggie Sandwich *", price: "14.00", desc: "Potato patty with onions and peppers, provolone, tomato, dijon-chipotle mayo" },
-    { name: "Elena wrap *", price: "16.50", desc: "Chicken chipotle wrap, tomato, cheddar cheese, chipotle ranch" },
-  ],
-  bowls: [
-    { name: "Loaded Home Fry Bowl *", price: "16.50", desc: "Fries topped with onions, peppers, cheddar cheese, two eggs, and bacon or sausage" },
-    { name: "Catracho Bowl *", price: "18.50", desc: "Eggs/meat, beans, pico de gallo, avocado, Honduran sour cream, rice *vegetarian available" },
-    { name: "Veggie Bowl *", price: "13.50", desc: "Spinach, tomatoes, mushrooms, onions, bell peppers, melted cheese" },
-    { name: "Turkey End", price: "15.50", desc: "Stoneground cheddar grits, red pepper sauce, turkey sausage, sunny egg, green onions (contains nuts)" },
-    { name: "The Maple Parfait *", price: "10.50", desc: "Yogurt, bananas, blueberries, strawberries, honey nut granola" },
-  ],
-}; 
+import "./Menu.css";
 
-
-const Menu = () => {
-  const renderSection = (title, items) => (
-    <div className="menu-section">
-      <h2>{title}</h2>
-      <ul>
-        {items.map((item, idx) => (
-          <li key={idx}>
-            <strong>{item.name}</strong> – ${item.price}
-            <br />
-            <span className="desc">{item.desc}</span>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-
-  return (
-    <div>
-      <div className="menu-header">
-        {/* <img src={headerImage} alt="Terrace Kitchen" className="header-image" /> */}
-        <h1 className="header-title">Welcome to Terrace Kitchen</h1>
-        <p className="header-subtext">Freshly made breakfast, sandwiches, and bowls served all day.</p>
-      </div>
-
-      <div className="menu">
-        {renderSection("Breakfast Plates", menu.breakfastPlates)}
-        {renderSection("Sandwiches / Biscuit", menu.sandwiches)}
-        {renderSection("Lunch Crafts", menu.lunchCrafts)}
-        {renderSection("Bowls", menu.bowls)}
-      </div>
-    </div>
-  );
+const menuData = {
+  breakfast: {
+    title: "Breakfast Menu (7:00AM – 3:00PM)",
+    sections: [
+      {
+        name: "Skillets",
+        items: [
+          { name: "Duke", desc: "Diced potatoes, onions, peppers, tomato, mushrooms, eggs", price: "$14.95" },
+          { name: "Knight", desc: "Diced potatoes, ham, turkey, bacon, onions, peppers, tomato, eggs", price: "$15.95" }
+        ]
+      },
+      {
+        name: "Bowls",
+        items: [
+          { name: "Catracho", desc: "Rice & beans, steak, pico, avocado, Honduran sour cream, eggs", price: "$16.95" },
+          { name: "The Maple", desc: "Greek yogurt, bananas, blueberries, strawberries, granola, honey", price: "$11.95" }
+        ]
+      },
+      {
+        name: "Egg Plates",
+        items: [
+          { name: "Steak", desc: "Ribeye with eggs, toast/biscuit, homefries & fruit", price: "$12.95" },
+          { name: "Pancake (2)", desc: "Served with eggs, toast/biscuit, homefries & fruit", price: "$15.95" },
+          { name: "Bacon or Turkey Sausage", desc: "Served with eggs, toast/biscuit, homefries & fruit", price: "$10.95" }
+        ]
+      },
+      {
+        name: "Breakfast Sandwiches",
+        items: [
+          { name: "Egg & Cheese", desc: "On toast or biscuit", price: "$4.95" },
+          { name: "Egg, Cheese & Bacon/Turkey Sausage", desc: "On toast or biscuit", price: "$7.95" }
+        ]
+      },
+      {
+        name: "Breakfast Sides",
+        items: [
+          { name: "Bacon or Turkey Sausage", price: "$3.95" },
+          { name: "Avocado Toast", price: "$5.35" },
+          { name: "Grits, Fruit, Home Fries", price: "$3.55" },
+          { name: "Toast or Biscuit", price: "$3.45" }
+        ]
+      },
+      {
+        name: "Smoothies",
+        items: [
+          { name: "Berry Blast", desc: "Strawberry, blueberry, banana", price: "$6.50" },
+          { name: "Tropical Sunrise", desc: "Mango, pineapple, banana", price: "$6.50" },
+          { name: "Green Glow", desc: "Spinach, kale, pineapple, banana", price: "$6.50" },
+          { name: "Blue Heaven", desc: "Blueberry, flax seed", price: "$6.25" }
+        ]
+      }
+    ]
+  },
+  lunch: {
+    title: "Lunch Menu (11:00AM – 3:00PM)",
+    sections: [
+      {
+        name: "Salads",
+        items: [
+          { name: "Greek", desc: "Cucumber, tomato, Kalamata olives, feta, red onion, grilled chicken", price: "$17.95" },
+          { name: "Chef", desc: "Cucumber, tomato, red onion, egg, ham, turkey", price: "$14.95" },
+          { name: "Caesar", desc: "Homemade croutons, parmesan cheese", price: "$13.95" }
+        ]
+      },
+      {
+        name: "Sandwiches",
+        items: [
+          { name: "Grilled Cheese", desc: "White/wheat bread, cheddar, provolone", price: "$8.95" },
+          { name: "Rueben", desc: "Pastrami, provolone, sauerkraut, Russian dressing, grilled rye", price: "$14.95" },
+          { name: "House Burger", desc: "Angus patty, bacon, lettuce, tomato, mayo, brioche", price: "$15.95" },
+          { name: "Patty Melt", desc: "Ground beef, cheddar, grilled onions, grilled rye", price: "$11.95" },
+          { name: "Chicken Melt", desc: "Grilled chicken, provolone, lettuce, tomato, onions, spicy mayo, ciabatta", price: "$12.95" },
+          { name: "Club Croissant", desc: "Ham, turkey, bacon, lettuce, tomato, provolone, mayo, croissant", price: "$15.95" },
+          { name: "Elena Wrap", desc: "Chicken, lettuce, tomato, feta, red onion, chipotle mayo, flour tortilla", price: "$14.95" },
+          { name: "BLT", desc: "Bacon, lettuce, tomato, mayo, sourdough", price: "$11.95" }
+        ]
+      },
+      {
+        name: "Lunch Sides",
+        items: [
+          { name: "Cole Slaw or French Fries", price: "$3.95" },
+          { name: "Onion Rings", price: "$5.95" }
+        ]
+      },
+      {
+        name: "Dessert",
+        items: [
+          { name: "Bread Pudding w/ Ice Cream", price: "$7.95" }
+        ]
+      },
+      {
+        name: "Drinks",
+        items: [
+          { name: "Iced Tea or Lemonade", price: "$2.45" },
+          { name: "Soft Drinks, Milk", price: "$2.95" }
+        ]
+      }
+    ]
+  }
 };
+
+function Menu() {
+  return (
+    <main className="menu-page">
+      {Object.values(menuData).map((menu, idx) => (
+        <section key={idx} className="menu-section">
+          <h2>{menu.title}</h2>
+          {menu.sections.map((section, i) => (
+            <div key={i} className="menu-category">
+              <h3>{section.name}</h3>
+              <ul>
+                {section.items.map((item, j) => (
+                  <li key={j} className="menu-item">
+                    <div className="menu-text">
+                      <strong>{item.name}</strong>{" "}
+                      {item.desc && <span>– {item.desc}</span>}
+                    </div>
+                    <span className="menu-price">{item.price}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </section>
+      ))}
+    </main>
+  );
+}
 
 export default Menu;

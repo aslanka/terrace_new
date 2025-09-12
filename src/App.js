@@ -5,10 +5,8 @@ import AboutUs from './pages/AboutUs';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import ContactUs from './pages/ContactUs';
-import Menu from './pages/Menu';
-import DrinksMenu from './pages/DrinksMenu';
-import MoreMenu from "./pages/MoreMenu";
 import MenuAdmin from './pages/admin/MenuAdmin';
+import Menu from './pages/Menu'
 function App() {
   return (
     <Router>
@@ -18,8 +16,6 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<AboutUs />} />
       <Route path="/menu" element={<Menu />} />
-      <Route path="/specials" element={<MoreMenu />} />
-      <Route path="/drinks" element={<DrinksMenu />} />
       <Route path="/contact" element={<ContactUs />} />
       <Route path="/menuAdmin" element={<MenuAdmin />} />
     </Routes>

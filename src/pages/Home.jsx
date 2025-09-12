@@ -44,7 +44,7 @@ function Home() {
   return (
     <main className="home">
       <section className="hero">
-        <h1>Welcome to Terrace Kitchen</h1>
+        <h1>Welcome to Happi's Diner</h1>
         <p>Experience gourmet magic from our world-class chefs.</p>
       </section>
 
@@ -52,7 +52,7 @@ function Home() {
   <div className="about-text">
     <h2>Durham's Favorite Brunch Restaurant!</h2>
     <p>
-      Look no further, you’ve found the best brunch restaurant in RTP! Terrace Kitchen is serving up breakfast favorites and sandwiches in our cozy, family-friendly diner environment.
+      Look no further, you’ve found the best brunch restaurant in RTP! Happi's Diner is serving up breakfast favorites and sandwiches in our cozy, family-friendly diner environment.
     </p>
     <p>
       We welcome guests of all ages and walks of life for both breakfast and lunch. We specialize in serving large parties, so bring your family and friends and come down to eat with us!
@@ -115,7 +115,7 @@ function Home() {
   <div className="gift-card-content">
     <h2>Make their day.</h2>
     <p>
-      A Terrace Kitchen gift card is the perfect way to treat someone special to a warm welcome and an unforgettable dining experience.
+      A Happi's Diner gift card is the perfect way to treat someone special to a warm welcome and an unforgettable dining experience.
     </p>
     <p>
       Choose the amount that fits the occasion, whether it’s a casual bite or a full Southern feast. Available for purchase in person or delivered instantly via email or text, our gift cards make last-minute gifting effortless.
