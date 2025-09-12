@@ -7,21 +7,21 @@ function AboutUs() {
       <section className="about-hero">
         <h1>Our Story</h1>
         <p>
-          Rooted in southern warmth and culinary passion, Happi's Diner is more than just a brunch destination—it's a gathering place for unforgettable moments.
+          Rooted in southern warmth and culinary passion, Happy's Diner is more than just a brunch destination—it's a gathering place for unforgettable moments.
         </p>
       </section>
 
       <section className="about-section">
         <div className="about-image">
           <img
-            src="https://media.licdn.com/dms/image/v2/D4E35AQEKZAXUQmGnVw/profile-framedphoto-shrink_400_400/B4EZfRjlazHIAk-/0/1751567456232?e=1752613200&v=beta&t=mm69TmWR3wt0xATwJxl8cWlwgCK9uLKswMsr1D2m2Us"
+            src="https://www.shutterstock.com/image-photo/african-american-female-chef-having-600nw-2150289105.jpg"
             alt="Chef preparing brunch"
           />
         </div>
         <div className="about-text">
           <h2>Our Mission</h2>
           <p>
-            At Happi's Diner, our mission is to elevate everyday brunch into a refined celebration of flavor, community, and comfort. With seasonal ingredients, a touch of finesse, and heartfelt hospitality, we serve joy on every plate.
+            At Happy's Diner, our mission is to elevate everyday brunch into a refined celebration of flavor, community, and comfort. With seasonal ingredients, a touch of finesse, and heartfelt hospitality, we serve joy on every plate.
           </p>
         </div>
       </section>

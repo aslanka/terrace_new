@@ -35,7 +35,7 @@ function Footer() {
       <hr className="footer-divider" />
 
       <div className="footer-bottom">
-        <p>Copyright © 2025 Terrace Kitchen, All Rights Reserved.</p>
+        <p>Copyright © 2025 Happy's Diner, All Rights Reserved.</p>
       </div>
     </footer>
   );
