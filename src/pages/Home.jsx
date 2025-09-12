@@ -44,7 +44,7 @@ function Home() {
   return (
     <main className="home">
       <section className="hero">
-        <h1>Welcome to Happy's Diner</h1>
+        <h1>Welcome to The Happy's Diner</h1>
         <p>Experience gourmet magic from our world-class chefs.</p>
       </section>
 
@@ -115,7 +115,7 @@ function Home() {
   <div className="gift-card-content">
     <h2>Make their day.</h2>
     <p>
-      A Happy's Diner gift card is the perfect way to treat someone special to a warm welcome and an unforgettable dining experience.
+      A The Happy's Diner gift card is the perfect way to treat someone special to a warm welcome and an unforgettable dining experience.
     </p>
     <p>
       Choose the amount that fits the occasion, whether it’s a casual bite or a full Southern feast. Available for purchase in person or delivered instantly via email or text, our gift cards make last-minute gifting effortless.
