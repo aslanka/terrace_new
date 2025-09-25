@@ -44,8 +44,8 @@ function Home() {
   return (
     <main className="home">
       <section className="hero">
-        <h1>Welcome to The Happy's Diner</h1>
-        <p>Experience gourmet magic from our world-class chefs.</p>
+        <h1>Welcome to The Happy Diner</h1>
+        <p>Locally owned. Made fresh. Your neighborhood breakfast & lunch done right.</p>
       </section>
 
       <section className="about-section">
@@ -62,12 +62,12 @@ function Home() {
   <div className="hours-card">
     <h3>Hours</h3>
     <ul className="hours-list">
-      <li><strong>Mon:</strong> 8am – 2pm</li>
+      <li><strong>Mon:</strong> 7am – 3pm</li>
       <li><em>Tue: Closed</em></li>
-      <li><strong>Wed:</strong> 8am – 2pm</li>
-      <li><strong>Thu:</strong> 8am – 2pm</li>
-      <li><strong>Fri:</strong> 8am – 2pm</li>
-      <li><strong>S&S:</strong> 8am – 3pm</li>
+      <li><strong>Wed:</strong> 7am – 3pm</li>
+      <li><strong>Thu:</strong> 7am – 3pm</li>
+      <li><strong>Fri:</strong> 7am – 3pm</li>
+      <li><strong>S&S:</strong> 7am – 3pm</li>
     </ul>
     <button className="reserve-btn">Reserve a Table</button>
   </div>
@@ -98,14 +98,7 @@ function Home() {
  
 </section>
 
-<section className="chef-quotes">
-        <h2>What Our Chefs Say</h2>
-        <div className="chef-card fade-in">
-          <img src={chefQuotes[currentChef].image} />
-          <blockquote>“{chefQuotes[currentChef].quote}”</blockquote>
-          <p>- {chefQuotes[currentChef].name}</p>
-        </div>
-      </section>
+
 
 <section className="gift-card-section">
   <div className="gift-card-image">

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #a4bbd3;
+  background-color: #e3cc62;
   padding: 1rem 2rem;
   position: fixed;
   top: 0;
@@ -12,7 +12,9 @@
 }
 
 .logo-container img {
-  height: 50px;
+  height: 100px;
+  width: 100px;
+
 }
 
 .nav-links {

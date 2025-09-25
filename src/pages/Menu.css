@@ -5,6 +5,11 @@
     color: #333;
     font-family: 'Georgia', serif;
   }
+.menu-footer{
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 10px;
+  }
   
   .menu-section {
     margin-bottom: 3rem;
